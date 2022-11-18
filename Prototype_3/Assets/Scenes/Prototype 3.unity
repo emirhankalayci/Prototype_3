@@ -176,7 +176,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1438565936, guid: fb82dfb8d1c7044c69afd2486befecb3, type: 3}
       propertyPath: playOnAwake
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4356800953600124292, guid: fb82dfb8d1c7044c69afd2486befecb3, type: 3}
       propertyPath: m_Name
@@ -740,7 +740,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 522610104}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -5, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 522289726}
@@ -1429,7 +1429,7 @@ MonoBehaviour:
   dirtParticle: {fileID: 1726666923}
   jumpSound: {fileID: 8300000, guid: 113ee460fadc340e4957a7404a9fbb27, type: 3}
   crashSound: {fileID: 8300000, guid: 913d6445ee8cc4152a9c18da590ee203, type: 3}
-  jumpForce: 700
+  jumpForce: 500
   gravityModifier: 1.5
   isOnGround: 1
   gameOver: 0
@@ -2767,7 +2767,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efdda7048015cd84b919eecc0854886e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obstaclePrefab: {fileID: 1415998973685884289, guid: c1af6c4345949364a88034035fdf259f, type: 3}
+  obstaclePrefab:
+  - {fileID: 1415998973685884289, guid: c1af6c4345949364a88034035fdf259f, type: 3}
+  - {fileID: 920330884834578695, guid: efbca656fab32d94c8843f23faed8132, type: 3}
+  - {fileID: 7813356178855867070, guid: 42b248e97211fed45aa786220266d204, type: 3}
+  - {fileID: 647560032615680573, guid: bc7ba9c0c17e58e4bbe0dfc511cee2e9, type: 3}
+  - {fileID: 5598876728325149048, guid: 9af1fbdc6829fed4bb3b20546c6be5cc, type: 3}
+  - {fileID: 1573704269315960885, guid: f271320fa7c3c0e429b021492bee9403, type: 3}
+  - {fileID: 4490588799583612606, guid: 143f3d9a0e21cfc4e94d014423cbe8d4, type: 3}
+  - {fileID: 185110151005394530, guid: 119a5404cd098ba49acfa35838585e45, type: 3}
 --- !u!4 &924509124
 Transform:
   m_ObjectHideFlags: 0
@@ -2952,8 +2960,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2014335011}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15, y: 0, z: 0}
-  m_LocalScale: {x: 5, y: 1, z: 1}
+  m_LocalPosition: {x: 15.6104, y: 0, z: 0}
+  m_LocalScale: {x: 4.877967, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
